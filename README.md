@@ -1,4 +1,5 @@
 
+
 ---
 
 WindOS
@@ -12,6 +13,7 @@ WindOS aims to provide:
 - A sandboxed environment for apps  
 - A lightweight VM powered by a rewritten DOSBox core  
 - Full freedom: no Apple ID, no DRM, no forced payment methods  
+- Full modding/jailbreaking support — no restrictions  
 
 WindOS is built for Windows, but the long‑term goal is cross‑platform support.
 
@@ -48,6 +50,9 @@ WindOS/
  ├── include/           # Header files
  ├── docs/              # Documentation
  ├── visualc_net/       # Visual Studio project files
+ ├── system/            # OS services, system manager, kernel-like logic
+ ├── ui/                # UI framework, launcher, widgets
+ ├── vmem/              # Virtual memory and storage layer
  ├── README.md          # You are here
  ├── AUTHORS
  ├── COPYING
@@ -70,6 +75,24 @@ WindOS uses DOSBox as a VM shell, but replaces major components:
 
 This creates a hybrid system:  
 part emulator, part OS, fully open‑source.
+
+---
+
+🔓 Modding & Jailbreaking
+
+WindOS is intentionally open to modification.  
+Unlike iOS, WindOS does not restrict system access, app installation, or customization.
+
+Users and developers are free to:
+
+- Modify system files  
+- Create custom themes  
+- Replace UI components  
+- Build and sideload apps without signatures  
+- Extend or rewrite parts of the OS  
+- Build “tweaks” that hook into the UI or runtime  
+
+WindOS encourages experimentation, creativity, and community‑driven development.
 
 ---
 
@@ -106,7 +129,7 @@ Good places to start:
 - Documentation  
 - Testing  
 
-If you want to help, check the Issues tab for tasks marked  
+Check the Issues tab for tasks marked  
 good first issue.
 
 ---
