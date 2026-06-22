@@ -1,5 +1,4 @@
 
-
 ---
 
 WindOS
@@ -16,6 +15,30 @@ WindOS aims to provide:
 - Full modding/jailbreaking support — no restrictions  
 
 WindOS is built for Windows, but the long‑term goal is cross‑platform support.
+
+---
+
+🧩 How to Get the Source Code
+
+Download ZIP (Beginner‑friendly)
+- Click the green Code button  
+- Select Download ZIP  
+- Extract it  
+- Open the project in Visual Studio or your preferred IDE  
+
+Great for exploring or making small changes.
+
+Clone the Repository (Recommended for contributors)
+`
+git clone https://github.com/eligarner23/WindOS-Emulator-Project.git
+`
+
+Cloning lets contributors:
+
+- stay up to date with new commits  
+- create branches  
+- make pull requests  
+- sync changes easily  
 
 ---
 
@@ -83,7 +106,7 @@ part emulator, part OS, fully open‑source.
 WindOS is intentionally open to modification.  
 Unlike iOS, WindOS does not restrict system access, app installation, or customization.
 
-Users and developers are free to:
+Users and developers can:
 
 - Modify system files  
 - Create custom themes  
@@ -138,16 +161,5 @@ good first issue.
 
 WindOS is open‑source.  
 See the COPYING file for license details.
-
----
-
-📢 Contact / Discussion
-
-Open an issue or discussion on GitHub if you want to:
-
-- Suggest features  
-- Ask questions  
-- Help with development  
-- Report bugs  
 
 ---
